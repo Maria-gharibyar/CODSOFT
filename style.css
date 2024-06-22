@@ -1,0 +1,38 @@
+table {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+td > input {
+  width: 8vw;
+  height: 12vh;
+  outline: none;
+  border: none;
+  font-size: 1.9rem;
+  font-weight: bold;
+  margin-left: 5px;
+}
+tr td:last-child input {
+  width: 10vw;
+  background-color: rgb(66, 167, 255);
+  margin-left: -5px;
+  color: white;
+}
+
+input[value="="] {
+  background-color: rgb(8, 67, 119);
+  color: white;
+}
+td[colspan="3"] input {
+  width: 25vw;
+  background-color: hsl(0, 0%, 95%);
+  padding-left: 10px;
+}
+input[value="DEL"] {
+  height: 9vh;
+}
+::placeholder {
+  padding: 10px;
+}
